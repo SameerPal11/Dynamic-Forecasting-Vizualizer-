@@ -1,5 +1,65 @@
 # Dynamic-Data-Vizualizer
 
+Installation 
+# Streamlit App Deployment
+
+This repository contains a Streamlit-based application. Follow the steps below to set up and run the project using a virtual environment.
+
+## Prerequisites
+Make sure you have the following installed:
+
+- Python 3.12 
+- pip (Python package manager)
+- Virtual environment module (`venv`)
+
+## Installation Guide
+
+### 1. Clone the Repository
+```sh
+git clone https://github.com/yourusername/your-repo.git
+cd your-repo
+```
+
+### 2. Create and Activate a Virtual Environment
+#### On Windows:
+```sh
+python -m venv venv
+venv\Scripts\activate
+```
+
+#### On macOS/Linux:
+```sh
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+```sh
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+### 4. Run the Streamlit App
+```sh
+streamlit run app.py
+```
+
+## Updating Dependencies
+If you add new dependencies, update `requirements.txt`:
+```sh
+pip freeze > requirements.txt
+```
+
+## Deployment
+For deployment on platforms like Streamlit Cloud, ensure `requirements.txt` is updated and compatible with the platform's Python version.
+
+
+## License
+This project is licensed under the MIT License.
+
+
+
+
 
 ## Working with Different DataSets 
 ![Screenshot 2025-03-04 182026](https://github.com/user-attachments/assets/08145f50-098e-4b9b-82ee-8edce58ed89b)
